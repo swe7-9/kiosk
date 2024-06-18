@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main Screen</title>
+<style>
+  /* CSS 코드 */
+  /* 메인 화면 */
+  .main-screen {
+    position: relative;
+    width: 742px;
+    height: 1076px;
+    background: #FFD599;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Frame 3 */
+  .frame-3 {
+    position: absolute;
+    width: 234px;
+    height: 334px;
+    left: 508px; /* 조정 필요 */
+    top: 0; /* 조정 필요 */
+    background: #947E4C;
+  }
+
+  /* Rectangles */
+  .rectangle {
+    position: absolute;
+    width: 148px;
+    height: 193px;
+    background: #FFFEFE;
+  }
+
+  .rectangle-3 {
+    left: 15px;
+    top: 19px;
+  }
+
+  .rectangle-4 {
+    left: 199px;
+    top: 19px;
+  }
+
+  .rectangle-9 {
+    left: 199px;
+    top: 222px;
+  }
+
+  .rectangle-10 {
+    left: 387px;
+    top: 222px;
+  }
+
+  .rectangle-5 {
+    left: 14px;
+    top: 222px;
+  }
+
+  .rectangle-11 {
+    left: 579px;
+    top: 222px;
+  }
+
+  .rectangle-12 {
+    left: 387px;
+    top: 425px;
+  }
+
+  .rectangle-13 {
+    left: 199px;
+    top: 425px;
+  }
+
+  .rectangle-14 {
+    left: 14px;
+    top: 425px;
+  }
+
+  .rectangle-6 {
+    left: 579px;
+    top: 19px;
+  }
+
+  .rectangle-7 {
+    left: 387px;
+    top: 19px;
+  }
+
+  .rectangle-8 {
+    left: 579px;
+    top: 425px;
+  }
+
+  /* Product info */
+  .product-info {
+    position: absolute;
+    width: 147px;
+    height: 63px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .product-info-1 {
+    left: 15px;
+    top: 240px;
+  }
+
+  .product-info-2 {
+    left: 578px;
+    top: 740px;
+  }
+
+  .product-info-3 {
+    left: 389px;
+    top: 740px;
+  }
+
+  .product-info-4 {
+    left: 200px;
+    top: 740px;
+  }
+
+  .product-info-5 {
+    left: 14px;
+    top: 740px;
+  }
+
+  /* Group 1 */
+  .group-1 {
+    position: absolute;
+    width: 508px;
+    height: 334px;
+    left: 0;
+    top: 402px;
+    background-color: #CCCCCC;
+  }
+
+  /* Group 2 */
+  .group-2 {
+    position: absolute;
+    width: 508px;
+    height: 126px;
+    left: 0;
+    top: 742px;
+    background-color: #CCCCCC;
+  }
+</style>
+</head>
+<body>
+
+<!-- 메인 화면 -->
+<div class="main-screen">
+
+  <!-- Frame 3 -->
+  <div class="frame-3">
+    <!-- Rectangles -->
+    <div class="rectangle rectangle-3"></div>
+    <div class="rectangle rectangle-4"></div>
+    <div class="rectangle rectangle-9"></div>
+    <div class="rectangle rectangle-10"></div>
+    <div class="rectangle rectangle-5"></div>
+    <div class="rectangle rectangle-11"></div>
+    <div class="rectangle rectangle-12"></div>
+    <div class="rectangle rectangle-13"></div>
+    <div class="rectangle rectangle-14"></div>
+
+    <!-- Product info -->
+    <div class="product-info product-info-1">상품 이름<br>상품 가격</div>
+    <div class="product-info product-info-2">상품 이름<br>상품 가격</div>
+    <div class="product-info product-info-3">상품 이름<br>상품 가격</div>
+    <div class="product-info product-info-4">상품 이름<br>상품 가격</div>
+    <div class="product-info product-info-5">상품 이름<br>상품 가격</div>
+  </div>
+
+  <!-- Group 1 -->
+  <div class="group-1">
+    <!--추가할 내용--> 
+  </div>
+
+  <!-- Group 2 -->
+  <div class="group-2">
+    <!--추가할 내용--> 
+  </div>
+
+</div>
+
+</body>
+</html>
+
