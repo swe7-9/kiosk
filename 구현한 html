@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="products">
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+            <div class="product">상품 이름<br>상품 가격</div>
+        </div>
+        <div class="cart">
+            <table>
+                <thead>
+                    <tr>
+                        <th>상품 이름</th>
+                        <th>상품 가격</th>
+                        <th>상품 개수</th>
+                        <th>수량 조절</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>상품 이름</td>
+                        <td>상품 가격</td>
+                        <td>1개</td>
+                        <td><button>-</button> 1개 <button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>상품 이름</td>
+                        <td>상품 가격</td>
+                        <td>1개</td>
+                        <td><button>-</button> 1개 <button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>상품 이름</td>
+                        <td>상품 가격</td>
+                        <td>1개</td>
+                        <td><button>-</button> 1개 <button>+</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="checkout">결제하기</button>
+        </div>
+    </div>
+</body>
+</html>
